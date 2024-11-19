@@ -7,7 +7,7 @@ const Header = () => {
       <div className='header-container'>
        <img src={Rasm_1} alt="Logo qismi bu qism" />
            <ul className='header-list'>
-              <li className=''><input className='' type="text" /></li>
+              <li className=''><input className='header-input-a' type="text" placeholder='What are you looking for?' /></li>
               <li className=''><input className='' type="text" /></li>
            </ul>
            </div>

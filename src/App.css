@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.header{
+.container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    list-style: none;
+    text-decoration: none;
 }

@@ -1,3 +1,13 @@
 .header{
     background-color: #313131;
 }
+.header-container{
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    list-style: none;
+}

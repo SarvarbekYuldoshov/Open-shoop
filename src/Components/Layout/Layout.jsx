@@ -10,8 +10,8 @@ const Layout = () => {
           <ul className='Layout-list'>
 
           </ul>
-          <ul className=''>
-            
+          <ul className='Layout-list'>
+
           </ul>
        </div>
     </div>

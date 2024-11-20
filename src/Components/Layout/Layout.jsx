@@ -4,7 +4,9 @@ const Layout = () => {
   return (
     <div className='Layout'>
        <div className='Layout-container'>
-        
+          <ul className='Layout-list'>
+            
+          </ul>
        </div>
     </div>
   )

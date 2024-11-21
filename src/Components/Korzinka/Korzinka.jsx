@@ -4,7 +4,7 @@ const Korzinka = () => {
   return (
     <div className='layout'>
        <div className='layout-container'>
-            <ul className=''>
+            <ul className='layout'>
 
             </ul>
             <ul className=''>

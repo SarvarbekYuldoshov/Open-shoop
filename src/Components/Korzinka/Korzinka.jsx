@@ -3,7 +3,7 @@ import "./Korzinka.css"
 const Korzinka = () => {
   return (
     <div className='layout'>
-       <div className=''>
+       <div className='layout-container'>
             <ul className=''>
 
             </ul>

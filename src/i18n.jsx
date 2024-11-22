@@ -8,7 +8,6 @@ i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
-  // init i18next
   .init({
     fallbackLng: 'en',
     debug: true,

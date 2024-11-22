@@ -6,7 +6,6 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 i18n
 
   .use(Backend)
-  // learn more: https://github.com/i18next/i18next-browser-languageDetector
   .use(LanguageDetector)
   // pass the i18n instance to react-i18next.
   .use(initReactI18next)

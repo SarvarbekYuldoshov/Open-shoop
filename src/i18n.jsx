@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import uzTranslation from "../src/Tillar/uzbek/uzbek.json"
-import enTranslation from "../src/Tillar/english/english.json"
+import enTranslation from "."
 import enTranslation from "../src/Components/Languages/russian.json"
 
 i18n

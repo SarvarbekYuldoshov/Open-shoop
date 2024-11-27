@@ -11,7 +11,7 @@ const Layout = () => {
     <div className='Layout'>
        <div className='Layout-container'>
           <ul className='Layout-list'>
-             <select className="select" onChange={handleLanguageChange} value={i18n.language}>
+             <select className="Layout-select" onChange={handleLanguageChange} value={i18n.language}>
                 <option className='Layout-option' value="uz">Uzbek</option>
                 <option className='Layout-option' value="en">English</option>
                 <option className='Layout-option' value="ru">Russian</option>

@@ -10,21 +10,23 @@ const Layout = () => {
   return (
     <div className='Layout'>
        <div className='Layout-container'>
-          <ul className='Layout-list'>
-             <select className="Layout-select" onChange={handleLanguageChange} value={i18n.language}>
-                <option className='Layout-option' value="uz">Uzbek</option>
-                <option className='Layout-option' value="en">English</option>
-                <option className='Layout-option' value="ru">Russian</option>
-              </select>
-          </ul>
-          <ul className='Layout-list'>
-              <li className=''>
-                <img className='' src="" alt="" />
-              </li>
-              <li className=''>
-                <p className='Layout-text'>(907) 555-0101</p>
-              </li>
-          </ul>
+        <div className=''>
+            <ul className='Layout-list'>
+                <select className="Layout-select" onChange={handleLanguageChange} value={i18n.language}>
+                    <option className='Layout-option' value="uz">Uzbek</option>
+                    <option className='Layout-option' value="en">English</option>
+                    <option className='Layout-option' value="ru">Russian</option>
+                  </select>
+              </ul>
+              <ul className='Layout-list'>
+                  <li className=''>
+                    <img className='' src="" alt="" />
+                  </li>
+                  <li className=''>
+                    <p className='Layout-text'>(907) 555-0101</p>
+                  </li>
+              </ul>
+        </div>
           <ul className='Layout-list'>
 
           </ul>

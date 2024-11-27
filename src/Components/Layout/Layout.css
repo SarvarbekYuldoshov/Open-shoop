@@ -21,6 +21,8 @@
 }
 .Layout-option{
     height: 20px;
+    background-color: black;
+    
 }
 .Layout-select{
     color: #FFFF;
@@ -28,4 +30,5 @@
     background: transparent;
     border-radius: 5px;
     height:20px;
+    font-size: 17px;
 }

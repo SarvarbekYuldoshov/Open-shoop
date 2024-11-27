@@ -17,7 +17,7 @@ i18n
     resources:{
         uz:{translation: uzTranslation},
         en:{translation: enTranslation},
-        ru:{}
+        ru:{translation:}
     },
     interpolation: {
       escapeValue: false, 

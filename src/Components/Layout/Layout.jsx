@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-
+import "./Layout.css"
 const Layout = () => {
   const { t, i18n } = useTranslation();
 

@@ -5,7 +5,7 @@ import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import uzTranslation from "../src/Components/Languages/uzbek.json"
 import enTranslation from "../src/Components/Languages/english.json"
-import enTranslation from "../src/Components/Languages/russian.json"
+import ruTranslation from "../src/Components/Languages/russian.json"
 
 i18n
   .use(Backend)
@@ -18,7 +18,7 @@ i18n
     resources:{
         uz:{translation: uzTranslation},
         en:{translation: enTranslation},
-        ru:{translation: }
+        ru:{translation: ruTranslation},
     },
     interpolation: {
       escapeValue: false, 

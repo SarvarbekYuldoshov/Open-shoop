@@ -18,7 +18,12 @@ const Layout = () => {
               </select>
           </ul>
           <ul className='Layout-list'>
-
+              <li className=''>
+                <img className='' src="" alt="" />
+              </li>
+              <li className=''>
+                <p className='Layout-text'>(907) 555-0101</p>
+              </li>
           </ul>
           <ul className='Layout-list'>
 

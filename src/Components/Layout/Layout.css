@@ -1,7 +1,14 @@
 .Layout{
     background-color: black;
 }
+.Layout-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .Layout-text{
+    width: 110px;
+    height: 20px;
     font-family: Noto Sans,sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -9,5 +16,6 @@
     letter-spacing: 0.07em;
     text-align: center;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none; 
+    text-decoration-skip-ink: none;
+    color: #FFFF; 
 }

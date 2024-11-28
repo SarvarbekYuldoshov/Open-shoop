@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 import Rasm_1 from "../images/rasm1.png"
+import Rasm_2 from "../images/rasm2.png"
 import "./Layout.css"
 const Layout = () => {
   const { t, i18n } = useTranslation();
@@ -25,7 +26,12 @@ const Layout = () => {
               </ul>
         </div>
           <ul className='Layout-list'>
-
+            <li className=''>
+               <img className='Layout-img' src={Rasm_2} alt="" />
+            </li>
+            <li className=''>
+               <p className='Layout-text'></p>
+            </li>
           </ul>
           <ul className='Layout-list'>
             

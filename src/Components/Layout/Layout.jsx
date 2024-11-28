@@ -5,7 +5,7 @@ import Rasm_2 from "../images/rasm2.png"
 import "./Layout.css"
 const Layout = () => {
   const { t, i18n } = useTranslation();
-
+  
   const handleLanguageChange = (e) => {
     i18n.changeLanguage(e.target.value);
   };

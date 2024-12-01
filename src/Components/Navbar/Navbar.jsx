@@ -7,7 +7,7 @@ const Navbar = () => {
            <ul className='Navbar-list'>
               <li className='Navbar-item'><a className='Navbar-link' href="">Cell Phones</a></li>
               <li className='Navbar-item'><a className='Navbar-link' href="">Computers&Laptop</a></li>
-              <li className='Navbar-item'><a className='Navbar-link' href=""></a></li>
+              <li className='Navbar-item'><a className='Navbar-link' href="">Tv&Video </a></li>
               <li className='Navbar-item'><a className='Navbar-link' href=""></a></li>
               <li className='Navbar-item'><a className='Navbar-link' href=""></a></li>
               <li className='Navbar-item'><a className='Navbar-link' href=""></a></li>

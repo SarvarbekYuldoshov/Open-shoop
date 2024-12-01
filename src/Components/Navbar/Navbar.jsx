@@ -5,9 +5,7 @@ const Navbar = () => {
     <div className='Navbar'>
        <div className='Navbar-container'>
            <ul className='Navbar-list'>
-              <li className=''>
-
-              </li>
+              <li className='Navbar-item'><a href=""></a></li>
            </ul>
        </div>
     </div>

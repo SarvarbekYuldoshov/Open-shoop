@@ -9,7 +9,7 @@ const Navbar = () => {
               <li className='Navbar-item'><a className='Navbar-link' href="">Computers&Laptop</a></li>
               <li className='Navbar-item'><a className='Navbar-link' href="">Tv&Video </a></li>
               <li className='Navbar-item'><a className='Navbar-link' href="">Asseccories</a></li>
-              <li className='Navbar-item'><a className='Navbar-link' href=""></a></li>
+              <li className='Navbar-item'><a className='Navbar-link' href="">Home appliance</a></li>
               <li className='Navbar-item'><a className='Navbar-link' href=""></a></li>
            </ul>
        </div>

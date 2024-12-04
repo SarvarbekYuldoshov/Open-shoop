@@ -28,29 +28,27 @@ const Layout = () => {
 {/* ------------------------------------------------------------------------------------------------------------------------------- */}
 
            <ul className='Layout-list'>
-            <img className='Layout-img' src={Rasm_1} alt="Contact" />
-            <p className='Layout-text'>(907) 555-0101</p>
-          </ul>
-        </div>
-
-        {/* Ikkinchi qism */}
-        <ul className='Layout-list'>
-          <li>
-            <img className='Layout-img' src={Rasm_2} alt="Description" />
-          </li>
-          <li>
-            <p className='Layout-text'>Sing in</p>
-          </li>
-        </ul>
-        <ul className='Layout-list'>
-          <li>
-            <img className='Layout-img' src={Rasm_3} alt="Description" />
-          </li>
-          <li>
-            <p className='Layout-text'>Cart</p>
-          </li>
-        </ul>
+              <img className='Layout-img' src={Rasm_1} alt="Contact" />
+              <p className='Layout-text'>(907) 555-0101</p>
+           </ul>
       </div>
+           <ul className='Layout-list'>
+              <li>
+                 <img className='Layout-img' src={Rasm_2} alt="Description" />
+              </li>
+              <li>
+                 <p className='Layout-text'>Sing in</p>
+              </li>
+           </ul>
+           <ul className='Layout-list'>
+              <li>
+                 <img className='Layout-img' src={Rasm_3} alt="Description" />
+              </li>
+              <li>
+                 <p className='Layout-text'>Cart</p>
+              </li>
+           </ul>
+        </div>
     </div>
   );
 };

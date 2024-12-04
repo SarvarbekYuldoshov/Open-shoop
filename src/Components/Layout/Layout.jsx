@@ -42,7 +42,7 @@ const Layout = () => {
             <img className='Layout-img' src={Rasm_2} alt="Description" />
           </li>
           <li>
-            <p className='Layout-text'>{t("Layout.Layout_text_1")}</p>
+            <p className='Layout-text'>Sing in</p>
           </li>
         </ul>
       </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
               <li className='Navbar-item'><a className='Navbar-link' href="">Home appliance</a></li>
               <li className='Navbar-item'><a className='Navbar-link' href="">Video Games&Consoles</a></li>
            </ul>
-       </div>
+       </div> 
     </div>
   )
 }

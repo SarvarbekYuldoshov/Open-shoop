@@ -3,4 +3,9 @@
     justify-content: space-between;
     justify-content: center;
     gap: 100px;
+    list-style: none;
+}
+.Navbar-link{
+    text-decoration: none;
+
 }

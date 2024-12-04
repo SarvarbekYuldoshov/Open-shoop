@@ -19,14 +19,15 @@ const Layout = () => {
         <div className='Layout-middle'>
            <ul className='Layout-list'>
               <select className="Layout-select"onChange={handleLanguageChange} value={i18n.language}>
-              <option className='Layout-option' value="uz">Uzbek</option>
-              <option className='Layout-option' value="en">English</option>
-              <option className='Layout-option' value="ru">Russian</option>
-            </select>
-          </ul>
+                  <option className='Layout-option' value="uz">Uzbek</option>
+                  <option className='Layout-option' value="en">English</option>
+                  <option className='Layout-option' value="ru">Russian</option>
+              </select>
+           </ul>
 
-          {/* Telefon raqami va rasm */}
-          <ul className='Layout-list'>
+{/* ------------------------------------------------------------------------------------------------------------------------------- */}
+
+           <ul className='Layout-list'>
             <img className='Layout-img' src={Rasm_1} alt="Contact" />
             <p className='Layout-text'>(907) 555-0101</p>
           </ul>

@@ -2,10 +2,15 @@
     display: flex;
     justify-content: space-between;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     list-style: none;
 }
 .Navbar-link{
     text-decoration: none;
-
+    font-family: Noto Sans,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    text-align: center;  
 }

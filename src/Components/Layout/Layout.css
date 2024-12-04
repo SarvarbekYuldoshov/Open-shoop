@@ -12,6 +12,11 @@
     align-items: center;
 }
 .Layout-text{
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: center;
     color: #FFFF;
     font-size: 20px;
 }
@@ -36,3 +41,69 @@
     display: flex;
     align-items: center;
 }
+
+
+@media(max-width:1200px){
+    .container{
+        width: 1100px;
+    }
+  
+  }
+  @media(max-width:1120px){
+  .container{
+      width: 1000px;
+  }
+  
+  }
+  @media(max-width:1020px){
+  .container{
+      width: 900px;
+  }
+  
+  
+  
+  
+  }
+  @media(max-width:920px){
+  .container{
+      width: 800px;
+  }
+  
+  }
+  @media(max-width:820px){
+  .container{
+      width: 700px;
+  }
+  
+  
+  
+  }
+  @media(max-width:720px){
+  .container{
+      width: 600px;
+  }
+  
+  
+  
+  }
+  
+  @media(max-width:620px){
+  .container{
+      width: 500px;
+  }
+  
+  
+  
+  }
+  @media(max-width:520px){
+  .container{
+      width: 400px;
+  }
+  
+  
+  }
+  @media(max-width:420px){
+  .container{
+      width: 300px;
+  }
+  }

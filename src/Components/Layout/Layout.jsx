@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Rasm_1 from "../images/rasm1.png";
 import Rasm_2 from "../images/rasm2.png";
+import Rasm_3 from "../images/rasm3.png";
 import "./Layout.css";
 
 const Layout = () => {
@@ -43,6 +44,14 @@ const Layout = () => {
           </li>
           <li>
             <p className='Layout-text'>Sing in</p>
+          </li>
+        </ul>
+        <ul className='Layout-list'>
+          <li>
+            <img className='Layout-img' src={Rasm_3} alt="Description" />
+          </li>
+          <li>
+            <p className='Layout-text'>Cart</p>
           </li>
         </ul>
       </div>

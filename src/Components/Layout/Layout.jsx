@@ -7,8 +7,6 @@ import "./Layout.css";
 
 const Layout = () => {
   const { t, i18n } = useTranslation();
-
-  // Tilni o'zgartirish funksiyasi
   const handleLanguageChange = (e) => {
     i18n.changeLanguage(e.target.value);
   };

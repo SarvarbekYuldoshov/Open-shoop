@@ -157,6 +157,51 @@ const Navbar = () => {
                 </ul>
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className='navbar-mendle'>   
+                <ul className='navbar-list'>
+                  <img className='navbar-img' src={Rasm_4} alt="" />
+                </ul>
+                <ul className='navbar-list'>
+                  <li>
+                    <h1 className='navbar-title'>Color your days with small joy</h1>
+                  </li>
+                  <li>
+                    <Button className='navbar-btn' onClick={showModal}>SHOP NOW</Button>
+                  </li>
+                </ul>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='navbar-mendle'>   
+                <ul className='navbar-list'>
+                  <img className='navbar-img' src={Rasm_4} alt="" />
+                </ul>
+                <ul className='navbar-list'>
+                  <li>
+                    <h1 className='navbar-title'>Color your days with small joy</h1>
+                  </li>
+                  <li>
+                    <Button className='navbar-btn' onClick={showModal}>SHOP NOW</Button>
+                  </li>
+                </ul>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='navbar-mendle'>   
+                <ul className='navbar-list'>
+                  <img className='navbar-img' src={Rasm_4} alt="" />
+                </ul>
+                <ul className='navbar-list'>
+                  <li>
+                    <h1 className='navbar-title'>Color your days with small joy</h1>
+                  </li>
+                  <li>
+                    <Button className='navbar-btn' onClick={showModal}>SHOP NOW</Button>
+                  </li>
+                </ul>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>

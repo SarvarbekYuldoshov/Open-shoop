@@ -138,4 +138,16 @@
   .container{
       width: 300px;
   }
+  .header-input-a{
+    width: 150px;
+    font-size: 12px;
+  }
+  .header-input-b{
+    width: 150px;
+    font-size: 12px;
+  }
+  .header-img{
+    width: 100px;
+    height: 35px;
+  }
   }

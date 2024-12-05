@@ -64,7 +64,29 @@ const Navbar = () => {
                 </ul>
             </SwiperSlide>
             <SwiperSlide>
-            <ul className=''>
+                <ul className='navbar-list'>
+                    <li className=''>
+                       <img className='navbar-img' src={Rasm_4} alt="" />
+                    </li>
+                    <li className=''>
+                        <h1 className='navbar-title'>Color your days with small joy</h1>
+                        <button className='navbar-btn'>SHOP NOW</button>
+                    </li>
+                </ul>
+            </SwiperSlide>
+            <SwiperSlide>
+                <ul className='navbar-list'>
+                    <li className=''>
+                       <img className='navbar-img' src={Rasm_4} alt="" />
+                    </li>
+                    <li className=''>
+                        <h1 className='navbar-title'>Color your days with small joy</h1>
+                        <button className='navbar-btn'>SHOP NOW</button>
+                    </li>
+                </ul>
+            </SwiperSlide>
+            <SwiperSlide>
+                <ul className='navbar-list'>
                     <li className=''>
                        <img className='navbar-img' src={Rasm_4} alt="" />
                     </li>

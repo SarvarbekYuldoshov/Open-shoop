@@ -52,7 +52,10 @@ const Navbar = () => {
             modules={[Pagination]}
             className="mySwiper"
           >
-            <SwiperSlide></SwiperSlide>
+            <SwiperSlide>
+                <img src={Rasm_4} alt="" />
+                asdsvdsbdfada\s
+            </SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>
             <SwiperSlide>Slide 3</SwiperSlide>
             <SwiperSlide>Slide 4</SwiperSlide>

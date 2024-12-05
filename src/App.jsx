@@ -12,8 +12,8 @@ function App() {
     <>
       <div className='App'>
          <Layout/>
-         {/* <Header/>
-         <Navbar/> */}
+         <Header/>
+         {/* <Navbar/> */}
       </div>
     </>
   )

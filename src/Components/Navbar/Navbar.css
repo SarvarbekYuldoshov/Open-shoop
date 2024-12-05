@@ -14,3 +14,24 @@
     letter-spacing: 0.05em;
     text-align: center;  
 }
+.navbar-img{
+    width: 300px;
+    height: 250px;
+}
+.navbar-list{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+.navbar-title{
+    width: 600px;
+    height: 150px;
+    font-family: Noto Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}

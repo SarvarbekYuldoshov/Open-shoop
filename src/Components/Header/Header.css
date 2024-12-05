@@ -108,16 +108,22 @@
   .header-input-b{
     width: 200px;
   }
-  
-  
-  
   }
   
   @media(max-width:620px){
   .container{
       width: 500px;
   }
-  
+  .header-img{
+    width: 130px;
+    height: 55px;    
+  }
+  .header-input-a{
+    height: 25px;
+  }
+  .header-input-b{
+    height: 25px;
+  }
   
   
   }

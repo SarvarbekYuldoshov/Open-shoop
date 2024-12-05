@@ -14,6 +14,9 @@ const Navbar = () => {
                     <li className='Navbar-item'><a className='Navbar-link' href="">Video Games&Consoles</a></li>
                 </ul>
            </div>
+           <div className='Navbar-degree'>
+            
+           </div>
        </div> 
     </div>
   )

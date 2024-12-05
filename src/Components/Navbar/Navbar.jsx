@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Rasm_4 from "../images/rasm4.png";
+import Rasm_5 from "../images/rasm5.png";
 import './Navbar.css';
 
 // Modal Component
@@ -160,11 +161,11 @@ const Navbar = () => {
             <SwiperSlide>
               <div className='navbar-mendle'>   
                 <ul className='navbar-list'>
-                  <img className='navbar-img' src={Rasm_4} alt="" />
+                  <img className='navbar-img' src={Rasm_5} alt="" />
                 </ul>
                 <ul className='navbar-list'>
                   <li>
-                    <h1 className='navbar-title'>Color your days with small joy</h1>
+                    <h1 className='navbar-title'>Color your days with a little joy watch</h1>
                   </li>
                   <li>
                     <Button className='navbar-btn' onClick={showModal}>SHOP NOW</Button>
@@ -190,11 +191,11 @@ const Navbar = () => {
             <SwiperSlide>
               <div className='navbar-mendle'>   
                 <ul className='navbar-list'>
-                  <img className='navbar-img' src={Rasm_4} alt="" />
+                  <img className='navbar-img' src={Rasm_5} alt="" />
                 </ul>
                 <ul className='navbar-list'>
                   <li>
-                    <h1 className='navbar-title'>Color your days with small joy</h1>
+                    <h1 className='navbar-title'>Color your days with a little joy watch</h1>
                   </li>
                   <li>
                     <Button className='navbar-btn' onClick={showModal}>SHOP NOW</Button>

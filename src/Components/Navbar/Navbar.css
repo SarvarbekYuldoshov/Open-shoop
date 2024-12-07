@@ -135,6 +135,12 @@
     .container{
         width: 1100px;
     }
+    .Navbar-list{
+        flex-wrap: wrap;
+    }
+    .navbar-list{
+        flex-wrap: wrap;
+    }
   
   }
   @media(max-width:1120px){
@@ -179,7 +185,12 @@
   .container{
       width: 500px;
   }
-  
+  .Navbar-list{
+    gap: 15px;
+  }
+  .Navbar-link{
+    font-size: 15px;
+  }
   
   
   }

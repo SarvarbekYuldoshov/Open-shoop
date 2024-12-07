@@ -1,9 +1,41 @@
+.hero{
+    background-color: black;
+}
 .hero-container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    display: flex;
 }
 .hero-img{
     width: 630px;
     height: 500px;
+}
+.hero-img:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+.hero-img-2:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+.hero-img-3:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+.hero-img-1:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+.hero-img-3{
+     margin-top: 5px;
+     width: 297px;
+     height: 240px;
+}
+.hero-img-2{
+    margin-left: -14px;
+}
+.hero-list{
+    display: flex;
+    gap: 33px;
 }

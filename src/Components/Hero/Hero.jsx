@@ -3,6 +3,7 @@ import "./Hero.css"
 import Rasm_6 from "../images/rasm6.png"
 import Rasm_7 from "../images/rasm7.png"
 import Rasm_8 from "../images/rasm8.png"
+import Rasm_8 from "../images/rasm9.svg"
 const Hero = () => {
   return (
     <div className='hero'>

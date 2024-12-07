@@ -24,7 +24,7 @@ const Hero = () => {
                     </li>
                 </ul>
            </div>
-           <button className=''></button>
+           <button className='hero-btn'></button>
        </div>
     </div>
   )

@@ -3,7 +3,7 @@ import "./Hero.css"
 import Rasm_6 from "../images/rasm6.png"
 import Rasm_7 from "../images/rasm7.png"
 import Rasm_8 from "../images/rasm8.png"
-import Rasm_8 from "../images/rasm9.svg"
+import Rasm_9 from "../images/rasm9.svg"
 const Hero = () => {
   return (
     <div className='hero'>
@@ -20,7 +20,7 @@ const Hero = () => {
                         <img className='hero-img-2' src={Rasm_8} alt="" /> 
                     </li>
                     <li className=''>
-                        <img className='hero-img-3' src={Rasm_6} alt="" />
+                        <img className='hero-img-3' src={Rasm_9} alt="" />
                     </li>
                 </ul>
            </div>

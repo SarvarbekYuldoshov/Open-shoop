@@ -40,5 +40,12 @@
     gap: 33px;
 }
 .hero-btn{
-    
+    font-family: Noto Sans ,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
 }

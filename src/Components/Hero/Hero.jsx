@@ -23,8 +23,8 @@ const Hero = () => {
                         <img className='hero-img-3' src={Rasm_9} alt="" />
                     </li>
                 </ul>
+                <button className='hero-btn'>LEARN MORE</button>
            </div>
-           <button className='hero-btn'>LEARN MORE</button>
        </div>
     </div>
   )

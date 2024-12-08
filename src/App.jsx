@@ -15,7 +15,7 @@ function App() {
          <Layout/>
          <Header/>
          <Navbar/>
-         <Hero/>
+         {/* <Hero/> */}
       </div>
     </>
   )

@@ -137,8 +137,11 @@
     .Navbar-list{
         flex-wrap: wrap;
     }
-    .navbar-list{
+    .navbar-mendle{
         flex-wrap: wrap;
+    }
+    .navbar-btn{
+        margin-bottom: 20px;
     }
   
   }

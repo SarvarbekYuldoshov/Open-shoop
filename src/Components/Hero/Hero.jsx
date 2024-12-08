@@ -91,7 +91,7 @@ const Hero = () => {
   const showModal = () => setOpen(true);
   const closeModal = () => {
     setOpen(false);
-    form.resetFields(); // Reset form fields when the modal is closed
+    form.resetFields(); 
   };
 
   return (

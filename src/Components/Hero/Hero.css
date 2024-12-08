@@ -40,17 +40,15 @@
     gap: 33px;
 }
 .hero-btn{
-    width: 190px;
-    height: 80px;
-    font-family: Noto Sans ,sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 70px;
-    letter-spacing: 0.05em;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;    
+    justify-content: center;
+    padding: 20px 40px;
     color: #FFFFFF;
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFFF;
+    border-radius: 5px;
+    background: transparent;
+    margin-left: -50px;
+}
+.hero-btn:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }

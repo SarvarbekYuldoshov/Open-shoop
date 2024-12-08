@@ -178,14 +178,15 @@
   .container{
       width: 600px;
   }
-  
-  
-  
   }
   
   @media(max-width:620px){
   .container{
       width: 500px;
+  }
+  .navbar-title{
+    font-size: 30px;
+    width: 300px;
   }
   .Navbar-list{
     gap: 15px;
@@ -200,7 +201,10 @@
   .container{
       width: 400px;
   }
-  
+  .navbar-title{
+    width: 250px;
+    height: 200px;
+  }
   
   }
   @media(max-width:420px){

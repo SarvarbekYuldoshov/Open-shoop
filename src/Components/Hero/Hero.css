@@ -56,6 +56,7 @@
     transition: 1s;
 }
 
+/* Medium to Large Screen Responsiveness (Default) */
 @media(max-width: 1200px) {
     .hero-container {
         flex-direction: column;
@@ -74,5 +75,106 @@
 
     .hero-btn {
         margin-left: 0;
+    }
+}
+
+/* For Smaller Screens */
+@media(max-width: 1024px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-img-2, .hero-img-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-btn {
+        width: 80%;
+        padding: 15px 30px;
+    }
+}
+
+/* For Mobile Devices Below 768px */
+@media(max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-img-2, .hero-img-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-btn {
+        width: 80%;
+        padding: 12px 24px;
+    }
+}
+
+/* For Small Mobile Devices (Below 420px) */
+@media(max-width: 420px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-img-2, .hero-img-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-btn {
+        width: 90%;
+        padding: 10px 20px;
+    }
+
+    .hero-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Full responsiveness for screens as small as 320px */
+@media(max-width: 320px) {
+    .hero-container {
+        padding: 10px;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-img-2, .hero-img-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-btn {
+        width: 90%;
+        padding: 8px 16px;
+    }
+
+    .hero-list {
+        flex-direction: column;
+        gap: 5px;
     }
 }

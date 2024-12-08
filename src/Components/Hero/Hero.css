@@ -51,4 +51,5 @@
 .hero-btn:hover{
     transform: scale(1.1);
     transition: 1s;
+    background: rgb(74, 70, 70);
 }

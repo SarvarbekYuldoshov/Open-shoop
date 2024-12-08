@@ -1,45 +1,44 @@
-.hero{
+.hero {
     background-color: black;
 }
-.hero-container{
+
+.hero-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
-.hero-img{
+
+.hero-img {
     width: 630px;
     height: 500px;
+    transition: transform 1s;
 }
-.hero-img:hover{
+
+.hero-img:hover {
     transform: scale(0.95);
-    transition: 1s;
 }
-.hero-img-2:hover{
-    transform: scale(0.95);
-    transition: 1s;
+
+.hero-img-2,
+.hero-img-3 {
+    margin-top: 5px;
+    width: 297px;
+    height: 240px;
 }
-.hero-img-3:hover{
-    transform: scale(0.95);
-    transition: 1s;
+
+.hero-img-1 {
+    width: 100%;
 }
-.hero-img-1:hover{
-    transform: scale(0.95);
-    transition: 1s;
-}
-.hero-img-3{
-     margin-top: 5px;
-     width: 297px;
-     height: 240px;
-}
-.hero-img-2{
-    margin-left: -14px;
-}
-.hero-list{
+
+.hero-list {
     display: flex;
     gap: 33px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
-.hero-btn{
+
+.hero-btn {
     justify-content: center;
     padding: 20px 40px;
     color: #FFFFFF;
@@ -47,9 +46,33 @@
     border-radius: 5px;
     background: transparent;
     margin-left: -50px;
+    display: inline-block;
+    cursor: pointer;
 }
-.hero-btn:hover{
+
+.hero-btn:hover {
     transform: scale(1.1);
-    transition: 1s;
     background: rgb(74, 70, 70);
+    transition: 1s;
+}
+
+@media(max-width: 1200px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-img-2, .hero-img-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-btn {
+        margin-left: 0;
+    }
 }

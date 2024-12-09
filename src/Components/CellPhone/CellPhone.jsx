@@ -2,7 +2,7 @@ import React from 'react'
 
 const CellPhone = () => {
   return (
-    <div className=''>
+    <div className='CellPhone'>
         <div className=''>
 
         </div>

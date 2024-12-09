@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Cell Phone = () => {
+const CellPhone = () => {
   return (
-    <div>Cell Phone</div>
+    <div>CellPhone</div>
   )
 }
 
-export default Cell Phone
+export default CellPhone

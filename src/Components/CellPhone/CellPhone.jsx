@@ -29,9 +29,6 @@ const CellPhone = ({ showModal }) => {
               </ul>
               <ul className='navbar-list'>
                 <li>
-                  <h1 className='navbar-title'>Color your days with small joy</h1>
-                </li>
-                <li>
                   <Button className='navbar-btn' onClick={showModal}>SHOP NOW</Button>
                 </li>
               </ul>

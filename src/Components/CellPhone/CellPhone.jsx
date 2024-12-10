@@ -1,4 +1,5 @@
 import React from 'react';
+import "./CellPhone.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Button } from 'antd';
 import 'swiper/css';

@@ -22,7 +22,7 @@ const CellPhone = ({ showModal }) => {
         <React.Fragment key={index}>
           <SwiperSlide>
             <div className='CellPhone-mendle'>
-              <h1 className=''></h1>
+              <h1 className='CellPhone-title'>Cell Phone</h1>
               <ul className='navbar-list'>
                 <img className='navbar-img' src={Rasm_4} alt="" />
               </ul>

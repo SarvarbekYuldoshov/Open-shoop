@@ -6,9 +6,9 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Rasm_4 from "../images/rasm4.png";
 import Rasm_5 from "../images/rasm5.png";
-import './Navbar.css';
 
-const SwiperSection = ({ showModal }) => {
+
+const CellPhone = ({ showModal }) => {
   return (
     <Swiper
       pagination={{
@@ -55,4 +55,4 @@ const SwiperSection = ({ showModal }) => {
   );
 };
 
-export default SwiperSection;
+export default CellPhone;

@@ -21,6 +21,7 @@ const CellPhone = ({ showModal }) => {
       {[...Array(2)].map((_, index) => (
         <React.Fragment key={index}>
           <SwiperSlide>
+            <div className='CellPhone'>
             <div className='CellPhone-mendle'>
               <h1 className='CellPhone-title'>Cell Phone</h1>
               <ul className='navbar-list'>
@@ -32,6 +33,7 @@ const CellPhone = ({ showModal }) => {
                   <Button className='navbar-btn' onClick={showModal}>SHOP NOW</Button>
                 </li>
               </ul>
+            </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -48,6 +50,8 @@ const CellPhone = ({ showModal }) => {
                 </li>
               </ul>
             </div>
+           
+         
           </SwiperSlide>
         </React.Fragment>
       ))}

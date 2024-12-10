@@ -25,6 +25,7 @@ const CellPhone = ({ showModal }) => {
               <h1 className='CellPhone-title'>Cell Phone</h1>
               <ul className='navbar-list'>
                 <img className='navbar-img' src={Rasm_4} alt="" />
+                <p className='CellPhone-text'>IPhone 12 Pro Max 128GB (Gray)</p>
               </ul>
               <ul className='navbar-list'>
                 <li>

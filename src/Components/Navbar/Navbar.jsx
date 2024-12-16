@@ -58,6 +58,8 @@ const CustomModal = ({ visible, onClose, form, sendMessage }) => {
   );
 };
 
+// ---------------------------------------------------------------------------------------------------------------------
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [form] = Form.useForm();

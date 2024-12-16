@@ -101,6 +101,9 @@ const Navbar = () => {
   };
 
   return (
+
+// -------------------------------------------------------------------------------------------------------------------
+
     <div className='Navbar'>
       <div className='Navbar-container'>
         <div className='Navbar-mindle'>

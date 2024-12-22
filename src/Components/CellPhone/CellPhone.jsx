@@ -12,7 +12,6 @@ import Rasm_5 from '../images/rasm5.png';
 const CellPhone = ({ showModal }) => {
   return (
     <div>
-      {/* Static Section */}
       <div className='CellPhone'>
         <div className='CellPhone-container'>
           <h1 className='CellPhone-title'>Cell Phone</h1>

@@ -16,8 +16,8 @@ function App() {
          <Layout/>
          <Header/>
          <Navbar/>
-         <Hero/>
-         <CellPhone/>
+         {/* <Hero/>
+         <CellPhone/> */}
       </div>
     </>
   )

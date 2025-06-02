@@ -25,7 +25,6 @@
     content: "";
     position: absolute;
     bottom: -5px;
-    left: 0;
     width: 100%;
     height: 2px;
     background-color:rgb(249, 249, 255);
@@ -46,10 +45,10 @@
     height: 601px;   
 }
 .navbar-mendle{
-    /* list-style: none;
+    list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 .navbar-list{
     list-style: none;
